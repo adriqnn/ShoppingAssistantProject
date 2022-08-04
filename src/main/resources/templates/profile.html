@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<main>
+    <div class="container bg-blur rounded mt-5 mb-4">
+        <h1>Account Information</h1>
+        <div class="row mt-3 mb-3">
+            <div th:object="${user}" class="col-6 bg-dark rounded m-auto" style="height: 36vh; overflow: auto">
+                <h3 class="mt-3 rounded badge-success text-center font-weight-bold font-italic" th:text="|Profile|"></h3>
+
+                <div  class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/username.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|Username: *{username}|"></span>
+                    <a class="ml-3 text-danger" th:href="@{/profile/{id}/change-username(id = ${#authentication.principal.id})}" >[Change]</a>
+                </div>
+                <div   class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/psword.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|Password: *********|"></span>
+                    <a class="ml-3 text-danger" th:href="@{/profile/{id}/change-password(id = ${#authentication.principal.id})}" >[Change]</a>
+                </div>
+                <div   class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/firstname.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|First Name: *{firstName}|"></span>
+                    <a class="ml-3 text-danger" th:href="@{/profile/{id}/change-firstname(id = ${#authentication.principal.id})}" >[Change]</a>
+                </div>
+                <div   class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/email.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|Email: *{email}|"></span>
+                    <a class="ml-3 text-danger" th:href="@{/profile/{id}/change-email(id = ${#authentication.principal.id})}" >[Change]</a>
+                </div>
+                <div   class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/profilepicture.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|Profile Picture: ${#strings.abbreviate(user.profilePicture,10)}|"></span>
+                    <a class="ml-3 text-danger" th:href="@{/profile/{id}/change-picture(id = ${#authentication.principal.id})}" >[Change]</a>
+                </div>
+                <div   class="mt-3 rounded badge-light">
+                    <img class="mr-2" src="/images/applicationpoints.png" alt="Info" width="50px" height="50px">
+                    <span th:text="|Application Points: *{applicationPoints}|"></span>
+                    <a class="ml-3 text-danger"  ></a>
+                </div>
+<!--                <h3 class="mt-3 rounded badge-danger text-center" th:text="|CHANGE|"></h3>-->
+            </div>
+            <!--            <div class="col-5 bg-dark rounded m-auto" style="height: 30vh; overflow: auto">-->
+            <!--                <h3 class="mySticky bg-gray text-dark rounded">Drinks</h3>-->
+            <!--                <div  class="mt-3 rounded badge-warning">-->
+            <!--                    <img class="mr-2" src="/img/drink.png" alt="Food" width="50px" height="50px">-->
+            <!--                    <span ></span>-->
+            <!--                    <a class="ml-3 text-danger"  >Buy</a>-->
+            <!--                </div>-->
+            <!--            </div>-->
+        </div>
+        <!--        <div class="row mt-3 mb-3">-->
+        <!--            <div class="col-5 bg-dark rounded m-auto" style="height: 30vh; overflow: auto">-->
+        <!--                <h3 class="mySticky bg-gray text-dark rounded">Households</h3>-->
+        <!--                <div  class="mt-3 rounded badge-success">-->
+        <!--                    <img class="mr-2" src="/img/household.png" alt="Food" width="50px" height="50px">-->
+        <!--                    <span ></span>-->
+        <!--                    <a class="ml-3 text-danger" >Buy</a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-5 bg-dark rounded m-auto" style="height: 30vh; overflow: auto">-->
+        <!--                <h3 class="mySticky bg-gray text-dark rounded">Other</h3>-->
+        <!--                <div  class="mt-3 rounded badge-secondary">-->
+        <!--                    <img class="mr-2" src="/img/other.png" alt="Food" width="50px" height="50px">-->
+        <!--                    <span ></span>-->
+        <!--                    <a class="ml-3 text-danger" >Buy</a>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <a th:href="@{/}" class="btn btn-info" >Home</a>
+<!--        <a th:href="@{/shoppingList/remove-all-items}" class="btn btn-danger" >Remove all</a>-->
+    </div>
+</main>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>

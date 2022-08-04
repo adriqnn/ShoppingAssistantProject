@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<div class="container">
+    <h2 class="text-center text-white">Add a New Store to the Database</h2>
+    <form   th:action="@{/admin/change-category-discounts-in-store}"
+            th:method="POST"
+            th:object="${changeCategoryDiscountsInStoreBindingModel}"
+            class="main-form mx-auto col-md-4  flex-column justify-content-center">
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="name" class="text-white font-weight-bold">Store Name</label>
+                <input
+                        id="name"
+                        name="name"
+                        th:field="*{name}"
+                        th:errorclass="is-invalid"
+                        type="text"
+                        class="form-control"
+                        placeholder="Name of the Store"/>
+                <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="meat" class="text-white font-weight-bold">Meat % discount</label>
+                <input
+                        id="meat"
+                        name="meat"
+                        th:field="*{meat}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Meat % discount"/>
+                <p th:if="${#fields.hasErrors('meat')}" th:errors="*{meat}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="fish" class="text-white font-weight-bold">Fish % discount</label>
+                <input
+                        id="fish"
+                        name="fish"
+                        th:field="*{fish}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Fish % discount"/>
+                <p th:if="${#fields.hasErrors('fish')}" th:errors="*{fish}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="dairy" class="text-white font-weight-bold">Dairy % discount</label>
+                <input
+                        id="dairy"
+                        name="dairy"
+                        th:field="*{dairy}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Dairy % discount"/>
+                <p th:if="${#fields.hasErrors('dairy')}" th:errors="*{dairy}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="vegetables" class="text-white font-weight-bold">Vegetables % discount</label>
+                <input
+                        id="vegetables"
+                        name="vegetables"
+                        th:field="*{vegetables}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Vegetables % discount"/>
+                <p th:if="${#fields.hasErrors('vegetables')}" th:errors="*{vegetables}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="fruits" class="text-white font-weight-bold">Fruits % discount</label>
+                <input
+                        id="fruits"
+                        name="fruits"
+                        th:field="*{fruits}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Fruits % discount"/>
+                <p th:if="${#fields.hasErrors('fruits')}" th:errors="*{fruits}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="drinks" class="text-white font-weight-bold">Drinks % discount</label>
+                <input
+                        id="drinks"
+                        name="drinks"
+                        th:field="*{drinks}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Drinks % discount"/>
+                <p th:if="${#fields.hasErrors('drinks')}" th:errors="*{drinks}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="alcohol" class="text-white font-weight-bold">Alcohol % discount</label>
+                <input
+                        id="alcohol"
+                        name="alcohol"
+                        th:field="*{alcohol}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Alcohol % discount"/>
+                <p th:if="${#fields.hasErrors('alcohol')}" th:errors="*{alcohol}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="nuts" class="text-white font-weight-bold">Nuts % discount</label>
+                <input
+                        id="nuts"
+                        name="nuts"
+                        th:field="*{nuts}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Nuts % discount"/>
+                <p th:if="${#fields.hasErrors('nuts')}" th:errors="*{nuts}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="chocolate" class="text-white font-weight-bold">Chocolate % discount</label>
+                <input
+                        id="chocolate"
+                        name="chocolate"
+                        th:field="*{chocolate}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Chocolate % discount"/>
+                <p th:if="${#fields.hasErrors('chocolate')}" th:errors="*{chocolate}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="oils" class="text-white font-weight-bold">Oils % discount</label>
+                <input
+                        id="oils"
+                        name="oils"
+                        th:field="*{oils}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Oils % discount"/>
+                <p th:if="${#fields.hasErrors('oils')}" th:errors="*{oils}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="sauces" class="text-white font-weight-bold">Sauces % discount</label>
+                <input
+                        id="sauces"
+                        name="sauces"
+                        th:field="*{sauces}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Sauces % discount"/>
+                <p th:if="${#fields.hasErrors('sauces')}" th:errors="*{sauces}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="sweets" class="text-white font-weight-bold">Sweets % discount</label>
+                <input
+                        id="sweets"
+                        name="sweets"
+                        th:field="*{sweets}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Sweets % discount"/>
+                <p th:if="${#fields.hasErrors('sweets')}" th:errors="*{sweets}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="household" class="text-white font-weight-bold">Household % discount</label>
+                <input
+                        id="household"
+                        name="household"
+                        th:field="*{household}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Household % discount"/>
+                <p th:if="${#fields.hasErrors('household')}" th:errors="*{household}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="other" class="text-white font-weight-bold">Other % discount</label>
+                <input
+                        id="other"
+                        name="other"
+                        th:field="*{other}"
+                        th:errorclass="is-invalid"
+                        type="number"
+                        class="form-control"
+                        placeholder="Other % discount"/>
+                <p th:if="${#fields.hasErrors('other')}" th:errors="*{other}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <input type="submit" class="btn btn-success" value="Change Discount %" style="width: 8vw"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <a th:href="@{/admin/control-panel}" class="btn btn-info" style="width: 8vw">Back to Admin Panel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>

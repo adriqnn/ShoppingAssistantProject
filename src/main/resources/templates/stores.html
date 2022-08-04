@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<main id="containerJS"></main>
+
+<div>
+    <script th:src="@{/js/stores_rest.js}"></script>
+</div>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:fragment="head">
+    <meta charset="UTF-8">
+    <title>Shopping Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/css/reset-css.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header th:fragment="navbar">
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
+        <a class="navbar-brand" th:href="@{/home}"><img alt="home" src="/images/home2.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto col-4 justify-content-between">
+                <th:block sec:authorize="isAuthenticated()">
+
+                    <li class="nav-item" sec:authorize="hasRole('ADMIN')">
+                        <a class="nav-link"
+                           th:href="@{/admin/control-panel}"><img class="img-profile" src="/images/panel.png">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/profile/{id}(id = ${#authentication.principal.id})}"><img class="img-profile" th:src="${#authentication.principal.profilePicture}">Profile</a>
+                    </li>
+                    <li class="nav-item" sec:authorize="!hasRole('ADMIN')">
+                        <a class="nav-link"
+                           th:href="@{/shoppingList/profile/{id}(id = ${#authentication.principal.id})}"><img class="img-profile" src="/images/shoppinglist.png">Shopping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/stores}"><img class="img-profile" src="/images/store.png">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/discounts}"><img class="img-profile" src="/images/discount.png">Discounts</a>
+                    </li>
+                    <li class="nav-item " sec:authorize="isAuthenticated()">
+                        <div class="form-inline my-2 my-lg-0 px-3 ">
+                            <div class="text-white" >Welcome, <th:block th:text="${#authentication.principal.firstName}">X</th:block>!</div>
+                            <a class="nav-item">
+                                <form th:action="@{/users/logout}" th:method="post">
+                                    <input class="btn btn-link nav-link" type="submit" value="Logout">
+                                </form>
+                            </a>
+                        </div>
+                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <form th:action="@{/users/logout}" th:method="post">-->
+<!--                            <input class="btn btn-link nav-link" type="submit" value="Logout">-->
+<!--                        </form>-->
+<!--                    </li>-->
+                </th:block>
+                <th:block sec:authorize="!isAuthenticated()">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/users/login}">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/users/register}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           th:href="@{/about}">About</a>
+                    </li>
+                </th:block>
+            </ul>
+        </div>
+    </nav>
+</header>
+<footer th:fragment="footer" class="footer bg-transparent  py-2">
+    <div class="container-fluid text-center">
+        <div class="footer-background h5 text-white">
+            &copy; All rights reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<div class="container">
+    <h2 class="text-center text-white">Add Groceries</h2>
+    <form
+            th:action="@{/shoppingList/add-groceries}"
+            th:method="POST"
+            th:object="${productAddBindingModel}"
+            class="main-form mx-auto col-md-4 d-flex flex-column justify-content-center">
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="name" class="text-white font-weight-bold">Name</label>
+                <input
+                        th:field="*{name}"
+                        th:errorclass="is-invalid"
+                        name="name"
+                        id="name"
+                        type="text"
+                        min="3"
+                        max="50"
+                        class="form-control"
+                        placeholder="Name"/>
+                <small th:if="${#fields.hasErrors('name')}"
+                       th:errors="*{name}"
+                       class="invalid-feedback errors alert alert-danger"> Name Error</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="price" class="text-white font-weight-bold">Price</label>
+                <input
+                        th:field="*{price}"
+                        th:errorclass="is-invalid"
+                        id="price"
+                        name="price"
+                        type="number"
+                        step="0.1"
+                        class="form-control"
+                        placeholder="Price"/>
+                <small th:if="${#fields.hasErrors('price')}"
+                       th:errors="*{price}"
+                       class="invalid-feedback errors alert alert-danger"> Price Error</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="neededBefore" class="text-white font-weight-bold">Before</label>
+                <input
+                        th:field="*{neededBefore}"
+                        th:errorclass="is-invalid"
+                        name="neededBefore"
+                        id="neededBefore"
+                        type="date"
+                        class="form-control"
+                        placeholder="Before"/>
+                <small th:if="${#fields.hasErrors('neededBefore')}"
+                       th:errors="*{neededBefore}"
+                       class="invalid-feedback errors alert alert-danger"> Date error</small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="productCategory" class="text-white font-weight-bold">Category</label>
+                <select
+                        th:field="*{productCategory}"
+                        th:errorclass="is-invalid"
+                        class="browser-default custom-select"
+                        id="productCategory"
+                        name="productCategory">
+                    <option value="">Select category</option>
+                    <option th:each="c : ${T(com.example.shoppingassistant.model.entity.enums.ProductCategoryEnum).values()}"
+                            th:text="${c}"
+                            th:value="${c}">
+                            Category Type
+                    </option>
+                </select>
+                <small th:if="${#fields.hasErrors('productCategory')}"
+                       th:errors="*{productCategory}"
+                       class="invalid-feedback errors alert alert-danger">Category error</small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <input type="submit" class="btn btn-success" value="Add grocery" style="width: 8vw"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <a th:href="@{/shoppingList/profile/{id}(id = ${#authentication.principal.id})}" class="btn btn-info" style="width: 8vw">Back to Shopping List</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<main>
+    <div class="container bg-blur rounded mt-5 mb-4">
+        <h1>Application Administration</h1>
+        <div class="row mt-3 mb-3">
+            <div class="col-5 bg-dark rounded m-auto" style="height: 35vh; overflow: auto">
+                <h3 class="mt-3 rounded badge-light text-center font-weight-bold font-italic" th:text="|Users|"></h3>
+
+                <div th:each="username : ${users}"  class="mt-3 rounded badge-success">
+                    <img class="mr-2" src="/images/username.png" alt="user" width="50px" height="50px">
+                    <span th:text="|Username:  *{username}|"></span>
+                    <a class="ml-3 text-danger"  >[Remove User]</a>
+                </div>
+                <h3 class="mt-3 rounded badge-light text-center" th:text="|Registered Users: *{allUsers}|"></h3>
+            </div>
+            <div class="col-5 bg-dark rounded m-auto" style="height: 35vh; overflow: auto">
+                <h3 class="mt-3 rounded badge-light text-center font-weight-bold font-italic" th:text="|Stores|"></h3>
+                <div th:each="name : ${stores}"  class="mt-3 rounded badge-success">
+                    <img class="mr-2" src="/images/store.png" alt="store" width="50px" height="50px">
+                    <span th:text="|Store: *{name}|"></span>
+                    <a class="ml-3 text-danger"  >[Remove Store]</a>
+                </div>
+                <h3 class="mt-3 rounded badge-light text-center" th:text="|Working with: *{allStores} Stores|"></h3>
+            </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="col-5 bg-dark rounded m-auto" style="height: 35vh; overflow: auto">
+                <h3 class="mt-3 rounded badge-light text-center font-weight-bold font-italic" th:text="|Category Discounts|"></h3>
+
+                <div th:each="store : ${allStoresDiscounts}" class="mt-3 rounded badge-success">
+                    <img class="mr-2" th:src="'/images/' + ${store.pricingCategory} + '.png'" alt="Category" width="50px" height="50px">
+                    <span th:text="|Store: ${store.name} Discount: ${store.discountPercentage} %|"></span>
+                    <img class="mr-2" src="/images/discount.png" alt="Discount" width="50px" height="50px">
+                </div>
+                <h3 class="mt-3 rounded badge-light text-center" th:text="|Discounted Categories: *{allDiscounts}|"></h3>
+            </div>
+            <div class="col-5 bg-dark rounded m-auto" style="height: 35vh; overflow: auto">
+                <h3 class="mt-3 rounded badge-light text-center font-weight-bold font-italic" th:text="|Active Discounts|"></h3>
+
+                <div  th:each="discount : ${activeDiscounts}" class="mt-3 rounded badge-success">
+                    <img class="mr-2" src="/images/discount.png" alt="DiscountActive" width="50px" height="50px">
+                    <span th:text="|${discount.description}|"></span>
+
+                </div>
+                <h3 class="mt-3 rounded badge-light text-center" th:text="|Active Dicounts : ${activeDiscountsCount}|"></h3>
+            </div>
+        </div>
+
+        <a th:href="@{/admin/add-new-store}" class="btn btn-info" >Add a Store to the Application</a>
+
+        <a th:href="@{/admin/change-category-discounts-in-store}"  class="btn btn-info" >Change Category Discounts in Store</a>
+
+        <a th:href="@{/admin/re-roll-active-discount-tokens}" class="btn btn-info" >Re-roll Active Discounts for the Day</a>
+    </div>
+</main>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>

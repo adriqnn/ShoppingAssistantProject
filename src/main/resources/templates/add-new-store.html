@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head th:replace="fragments/fragment :: head"></head>
+
+<body>
+<div th:replace="fragments/fragment :: navbar">Navbar</div>
+
+<div class="container">
+    <h2 class="text-center text-white">Add a New Store to the Database</h2>
+    <form   th:action="@{/admin/add-new-store}"
+            th:method="POST"
+            th:object="${storeAddBindingModel}"
+            class="main-form mx-auto col-md-4  flex-column justify-content-center">
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="name" class="text-white font-weight-bold">Store Name</label>
+                <input
+                        id="name"
+                        name="name"
+                        th:field="*{name}"
+                        th:errorclass="is-invalid"
+                        type="text"
+                        class="form-control"
+                        placeholder="Name of the Store"/>
+                <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+<!--                <p  th:if="${storeNameInUse}"-->
+<!--                    class="bg-danger rounded">-->
+<!--                    Store already in the database.-->
+<!--                </p>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="description" class="text-white font-weight-bold">Store Description</label>
+                <input
+                        id="description"
+                        name="description"
+                        th:field="*{description}"
+                        th:errorclass="is-invalid"
+                        type="text"
+                        class="form-control"
+                        placeholder="Add store description"/>
+                <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-12 mb-3 text-center">
+                <label for="storeLogo" class="text-white font-weight-bold">Store Logo</label>
+                <input
+                        id="storeLogo"
+                        name="storeLogo"
+                        th:field="*{storeLogo}"
+                        th:errorclass="is-invalid"
+                        type="text"
+                        class="form-control"
+                        placeholder="Url with the logo of the Store"/>
+                <p th:if="${#fields.hasErrors('storeLogo')}" th:errors="*{storeLogo}"
+                   class="invalid-feedback errors alert alert-danger">
+                    Invalid Store details.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <input type="submit" class="btn btn-success" value="Add Store" style="width: 8vw"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="button-holder d-flex justify-content-center">
+                    <a th:href="@{/admin/control-panel}" class="btn btn-info" style="width: 8vw">Back to Admin Panel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <footer th:replace="fragments/fragment :: footer"></footer>
+</div>
+</body>
+</html>
