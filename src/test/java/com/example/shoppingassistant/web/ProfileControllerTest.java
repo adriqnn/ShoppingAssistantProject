@@ -208,4 +208,5 @@ public class ProfileControllerTest {
                 .andExpect(status().is3xxRedirection()).andExpect(redirectedUrl("/profile/" + userDetailsForTesting.getId() + "/change-picture"));
     }
 
+
 }
