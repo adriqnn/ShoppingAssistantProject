@@ -1,0 +1,320 @@
+Request:
+http://localhost/ GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/stores GET
+Request:
+http://localhost/discounts GET
+Request:
+http://localhost/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries GET
+Request:
+http://localhost/shoppingList/remove-one-item/1 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/profile/10 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/remove-all-items GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/login GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/stores GET
+Request:
+http://localhost/discounts GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries GET
+Request:
+http://localhost/shoppingList/remove-one-item/1 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/profile/10 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/remove-all-items GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/login GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
