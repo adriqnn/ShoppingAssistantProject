@@ -32,7 +32,7 @@ public class ApplicationSecurityConfiguration {
                 .authorizeRequests()
                 .requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
                 .antMatchers( "/", "/users/login", "/users/register").anonymous()
-                .antMatchers("/", "/about", "/home").permitAll()
+                .antMatchers("/", "/about", "/home", "/api/**").permitAll()
                 .antMatchers("/admin/**").hasRole(UserRoleEnum.ADMIN.name())
                 .anyRequest().authenticated()
                 .and()
