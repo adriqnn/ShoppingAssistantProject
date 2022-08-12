@@ -18,7 +18,7 @@
                 <div th:each="username : ${users}"  class="mt-3 rounded badge-success">
                     <img class="mr-2" src="/images/username.png" alt="user" width="50px" height="50px">
                     <span th:text="|Username:  *{username}|"></span>
-                    <a class="ml-3 text-danger"  >[Remove User]</a>
+<!--                    <a class="ml-3 text-danger"  >[Remove User]</a>-->
                 </div>
                 <h3 class="mt-3 rounded badge-light text-center" th:text="|Registered Users: *{allUsers}|"></h3>
             </div>
@@ -27,7 +27,7 @@
                 <div th:each="name : ${stores}"  class="mt-3 rounded badge-success">
                     <img class="mr-2" src="/images/store.png" alt="store" width="50px" height="50px">
                     <span th:text="|Store: *{name}|"></span>
-                    <a class="ml-3 text-danger"  >[Remove Store]</a>
+<!--                    <a class="ml-3 text-danger"  >[Remove Store]</a>-->
                 </div>
                 <h3 class="mt-3 rounded badge-light text-center" th:text="|Working with: *{allStores} Stores|"></h3>
             </div>

@@ -8,11 +8,39 @@
 <body>
 <div th:replace="fragments/fragment :: navbar">Navbar</div>
 
-<div class="container-fluid">
-    <h5 class="text-center text-white mt-5">
-        hello!
-    </h5>
-</div>
+<main>
+    <div class="container bg-blur rounded mt-5 mb-4">
+        <h1>About this Project:</h1>
+        <div class="row mt-3 mb-3">
+            <div class="col-12 bg-dark rounded m-auto" style="height: 75vh; overflow: auto">
+                <p>Project Structure:</p>
+                <p>Small Project with Spring Framework and Spring Security.</p>
+                <p>Using Thymeleaf and Bootstrap for server-side rendering.</p>
+                <p>Has Rest API services and some front-end with javascript and fetch requests to the db through the api.</p>
+                <p>Database backend uses MySQL and Spring Data/Hibernate.</p>
+                <p>The project has ~93% classes and 77% lines coverage by 114 Unit and Integration tests.</p>
+                <p>The project has Data Validation using custom annotations and spring boot validation for the Binding Models.</p>
+                <p>There is Error-Handling for the services and repository information and an error.html for wrong url requests;</p>
+                <p>The project has 1 Interceptor that is used to log html requests to the server.</p>
+                <p>There is a scheduler - using chron that re-rolls the active daily discounts each day at 00:00.</p>
+                <p>Using ModelMapper to map and transform classes for easier information transfer.</p>
+                <p>There is one Spring Event that is used for the projects functionality</p>
+                <p>--------------------------------------</p>
+                <p>Project Functionality:</p>
+                <p>Project has 2 roles - Admin and User with generated pictures.</p>
+                <p>Admin/Users can access control panel.</p>
+                <p>Control panel has options to change username, email, password, first name and picture.</p>
+                <p>Users can access shopping list to create lists to help them with their shopping needs.</p>
+                <p>Users have access to stores page that shows in which store there are discounted product categories for the week.</p>
+                <p>Users are able also to use randomly generated daily discounts in the stores that the application works with.</p>
+                <p>The Admin can see registered users.</p>
+                <p>The Admin has the ability to add stores to the application.</p>
+                <p>The Admin must control the discounted pricing categories in stores each week by manually changing them.</p>
+                <p>The Admin can re-roll currently active discounts at any point.</p>
+            </div>
+        </div>
+    </div>
+</main>
 
 <div>
     <footer th:replace="fragments/fragment :: footer"></footer>
