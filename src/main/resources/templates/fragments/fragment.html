@@ -20,62 +20,69 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto col-4 justify-content-between">
-                <th:block sec:authorize="isAuthenticated()">
-
-                    <li class="nav-item" sec:authorize="hasRole('ADMIN')">
+        <th:block sec:authorize="isAuthenticated()">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto col-6 justify-content-start">
+                    <li class="nav-item h5" sec:authorize="hasRole('ADMIN')">
                         <a class="nav-link"
                            th:href="@{/admin/control-panel}"><img class="img-profile" src="/images/panel.png">Admin</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/profile/{id}(id = ${#authentication.principal.id})}"><img class="img-profile" th:src="${#authentication.principal.profilePicture}">Profile</a>
                     </li>
-                    <li class="nav-item" sec:authorize="!hasRole('ADMIN')">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/shoppingList/profile/{id}(id = ${#authentication.principal.id})}"><img class="img-profile" src="/images/shoppinglist.png">Shopping</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/stores}"><img class="img-profile" src="/images/store.png">Stores</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/discounts}"><img class="img-profile" src="/images/discount.png">Discounts</a>
                     </li>
-                    <li class="nav-item " sec:authorize="isAuthenticated()">
-                        <div class="form-inline my-2 my-lg-0 px-3 ">
-                            <div class="text-white" >Welcome, <th:block th:text="${#authentication.principal.firstName}">X</th:block>!</div>
-                            <a class="nav-item">
-                                <form th:action="@{/users/logout}" th:method="post">
-                                    <input class="btn btn-link nav-link" type="submit" value="Logout">
-                                </form>
-                            </a>
-                        </div>
-                    </li>
+
 <!--                    <li class="nav-item">-->
 <!--                        <form th:action="@{/users/logout}" th:method="post">-->
 <!--                            <input class="btn btn-link nav-link" type="submit" value="Logout">-->
 <!--                        </form>-->
 <!--                    </li>-->
-                </th:block>
-                <th:block sec:authorize="!isAuthenticated()">
-                    <li class="nav-item">
-                        <a class="nav-link"
+                </ul>
+                <ul class="navbar-nav mr-auto col-6 justify-content-end">
+                    <li class="nav-item pull-right" sec:authorize="isAuthenticated()">
+                        <div class="form-inline my-2 my-lg-0 px-6 ">
+                            <div class="text-white h5" >Welcome, <th:block th:text="${#authentication.principal.firstName}">X</th:block>!</div>
+                            <a class="nav-item">
+                                <form th:action="@{/users/logout}" th:method="post">
+                                    <input class="btn btn-link nav-link h5" type="submit" value="Logout">
+                                </form>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </th:block>
+        <th:block sec:authorize="!isAuthenticated()">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav mr-auto col-1 justify-content-between">
+                    <li class="nav-item h5">
+                        <a class="nav-link "
                            th:href="@{/users/login}">Login</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/users/register}">Register</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item h5">
                         <a class="nav-link"
                            th:href="@{/about}">About</a>
                     </li>
-                </th:block>
-            </ul>
-        </div>
+
+                </ul>
+            </div>
+        </th:block>
     </nav>
 </header>
 <footer th:fragment="footer" class="footer bg-transparent  py-2">
