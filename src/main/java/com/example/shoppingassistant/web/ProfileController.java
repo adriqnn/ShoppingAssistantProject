@@ -75,7 +75,7 @@ public class ProfileController {
     public String changePasswordConfirm(@PathVariable("id")Long id, @Valid PasswordChangeBindingModel passwordChangeBindingModel,
                                         BindingResult bindingResult, RedirectAttributes redirectAttributes,
                                         @AuthenticationPrincipal ApplicationUserDetails userDetails){
-        if(bindingResult.hasErrors()){
+        if(bindingResult.hasErrors() || !passwordChangeBindingModel.getNewPassword().equals(passwordChangeBindingModel.getConfirmNewPassword())){
             redirectAttributes.addFlashAttribute("passwordChangeBindingModel", passwordChangeBindingModel);
             redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.passwordChangeBindingModel", bindingResult);
 
