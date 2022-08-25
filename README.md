@@ -11,7 +11,7 @@ The project has one Interceptor that is used to log html requests to the server.
 There is a scheduler - using chron that re-rolls the active daily discounts each day at 00:00.
 Using ModelMapper to map and transform classes for easier information transfer.
 There us one Spring Event that is used for the projects functionality.
---------------------------------------
+
 Project Functionality:
 Project has two roles - Admin and User with generated pictures.
 Admin/Users can access control panel.
