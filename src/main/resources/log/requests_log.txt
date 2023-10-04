@@ -1,17 +1,597 @@
 Request:
-http://localhost/ GET
+http://localhost:8080/ GET
 Request:
-http://localhost/home GET
+http://localhost:8080/css/reset-css.css GET
 Request:
-http://localhost/about GET
+http://localhost:8080/css/bootstrap.min.css GET
 Request:
-http://localhost/home GET
+http://localhost:8080/css/main.css GET
 Request:
-http://localhost/about GET
+http://localhost:8080/images/home2.png GET
 Request:
-http://localhost/ GET
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/favicon.ico GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/register GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/about GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/shoppingList/profile/2 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/shoppingList/profile/2 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/shoppingList/profile/22 GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/profilee/22 GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/images/construction.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/profile/2 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/add-groceries POST
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/add-groceries POST
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/shoppingList/add-groceries POST
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
+Request:
+http://localhost:8080/profile/2 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile3.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/css/bootstrap.min.css.map GET
+Request:
+http://localhost:8080/error GET
 Request:
 http://localhost/stores GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/login GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost/admin/control-panel GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
 Request:
 http://localhost/discounts GET
 Request:
@@ -45,6 +625,960 @@ http://localhost/shoppingList/add-groceries POST
 Request:
 http://localhost/shoppingList/remove-all-items GET
 Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/home GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/home GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/about GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/login-error POST
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/users/register GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/register POST
+Request:
+http://localhost:8080/users/register GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/1 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/shoppingList/profile/1 GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/users/register GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/users/register POST
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3 GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3/change-username GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3/change-username POST
+Request:
+http://localhost:8080/profile/3/change-username GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3/change-username GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/profile/3/change-username POST
+Request:
+http://localhost:8080/profile/3 GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/profile/3/change-password GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/profile/3/change-password POST
+Request:
+http://localhost:8080/profile/3/change-password GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/profile/3/change-password POST
+Request:
+http://localhost:8080/profile/3 GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/psword.png GET
+Request:
+http://localhost:8080/images/firstname.png GET
+Request:
+http://localhost:8080/images/profilepicture.png GET
+Request:
+http://localhost:8080/images/email.png GET
+Request:
+http://localhost:8080/images/applicationpoints.png GET
+Request:
+http://localhost:8080/shoppingList/profile/3 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/shoppingList/add-groceries POST
+Request:
+http://localhost:8080/shoppingList/add-groceries GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/shoppingList/profile/3 GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/shoppingList/profile/3 GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost/stores GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
 http://localhost/users/register POST
 Request:
 http://localhost/users/register GET
@@ -67,201 +1601,59 @@ http://localhost/users/register POST
 Request:
 http://localhost/users/register POST
 Request:
-http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost/admin/control-panel GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
 Request:
 http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
 Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-password GET
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10/change-picture GET
-Request:
-http://localhost/profile/10/change-firstname GET
-Request:
-http://localhost/profile/10/change-password GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10/change-picture GET
-Request:
-http://localhost/profile/10/change-firstname GET
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-password GET
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10/change-picture GET
-Request:
-http://localhost/profile/10/change-firstname GET
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-password GET
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture GET
-Request:
-http://localhost/profile/10/change-firstname GET
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-password GET
-Request:
-http://localhost/stores GET
+http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
 Request:
 http://localhost/discounts GET
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10 GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-email GET
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-firstname POST
-Request:
-http://localhost/profile/10/change-password POST
-Request:
-http://localhost/profile/10/change-username GET
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture GET
-Request:
-http://localhost/profile/10/change-firstname GET
-Request:
-http://localhost/profile/10/change-email POST
-Request:
-http://localhost/profile/10/change-username POST
-Request:
-http://localhost/profile/10/change-picture POST
-Request:
-http://localhost/profile/10/change-password GET
 Request:
 http://localhost/api/discounts/get-active-daily-discounts GET
 Request:
@@ -293,6 +1685,724 @@ http://localhost/shoppingList/add-groceries POST
 Request:
 http://localhost/shoppingList/remove-all-items GET
 Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/add-new-store GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/add-new-store POST
+Request:
+http://localhost:8080/admin/add-new-store GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/admin/change-category-discounts-in-store GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/change-category-discounts-in-store POST
+Request:
+http://localhost:8080/admin/change-category-discounts-in-store GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/stores GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/stores_rest.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost:8080/admin/control-panel GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/username.png GET
+Request:
+http://localhost:8080/images/MEAT.png GET
+Request:
+http://localhost:8080/images/FISH.png GET
+Request:
+http://localhost:8080/images/DAIRY.png GET
+Request:
+http://localhost:8080/images/VEGETABLES.png GET
+Request:
+http://localhost:8080/images/FRUITS.png GET
+Request:
+http://localhost:8080/images/DRINKS.png GET
+Request:
+http://localhost:8080/images/ALCOHOL.png GET
+Request:
+http://localhost:8080/images/NUTS.png GET
+Request:
+http://localhost:8080/images/CHOCOLATE.png GET
+Request:
+http://localhost:8080/images/OILS.png GET
+Request:
+http://localhost:8080/images/SAUCES.png GET
+Request:
+http://localhost:8080/images/SWEETS.png GET
+Request:
+http://localhost:8080/images/HOUSEHOLD.png GET
+Request:
+http://localhost:8080/images/OTHER.png GET
+Request:
+http://localhost:8080/discounts GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/js/active_discounts_rest.js GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/images/panel.png GET
+Request:
+http://localhost:8080/images/profile2.png GET
+Request:
+http://localhost:8080/images/shoppinglist.png GET
+Request:
+http://localhost:8080/images/store.png GET
+Request:
+http://localhost:8080/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost:8080/images/discount.png GET
+Request:
+http://localhost:8080/images/discountHi.png GET
+Request:
+http://localhost/stores GET
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10 GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-email GET
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-firstname POST
+Request:
+http://localhost/profile/10/change-password POST
+Request:
+http://localhost/profile/10/change-username GET
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture GET
+Request:
+http://localhost/profile/10/change-firstname GET
+Request:
+http://localhost/profile/10/change-email POST
+Request:
+http://localhost/profile/10/change-username POST
+Request:
+http://localhost/profile/10/change-picture POST
+Request:
+http://localhost/profile/10/change-password GET
+Request:
 http://localhost/users/register POST
 Request:
 http://localhost/users/register GET
@@ -315,6 +2425,126 @@ http://localhost/users/register POST
 Request:
 http://localhost/users/register POST
 Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/re-roll-active-discount-tokens GET
+Request:
+http://localhost/admin/control-panel GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/add-new-store GET
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/add-new-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
+http://localhost/admin/change-category-discounts-in-store POST
+Request:
 http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
 Request:
 http://localhost/api/stores/get-all-discounted-categories-for-each-store GET
+Request:
+http://localhost/discounts GET
+Request:
+http://localhost/api/discounts/get-active-daily-discounts GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/home GET
+Request:
+http://localhost/about GET
+Request:
+http://localhost/ GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/add-groceries GET
+Request:
+http://localhost/shoppingList/remove-one-item/1 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/profile/10 GET
+Request:
+http://localhost/shoppingList/add-groceries POST
+Request:
+http://localhost/shoppingList/remove-all-items GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/js/bootstrap.min.js GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost/users/register POST
+Request:
+http://localhost:8080/users/login GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
+Request:
+http://localhost:8080/ GET
+Request:
+http://localhost:8080/css/reset-css.css GET
+Request:
+http://localhost:8080/css/bootstrap.min.css GET
+Request:
+http://localhost:8080/css/main.css GET
+Request:
+http://localhost:8080/images/home2.png GET
+Request:
+http://localhost:8080/images/180.jpg GET
